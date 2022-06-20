@@ -53,11 +53,13 @@ public class ExcelToDorisExecutor {
         /**
          * properties config path
          */
-        String propPath = "src/main/resources/application.properties";
+        String propPath = args[0];
+       // String propPath = "src/main/resources/application.properties";
         /**
          * upload file path
          */
-        String filePath = "C:\\Users\\lit\\Desktop\\test.xlsx";
+        String filePath = args[1];
+       // String filePath = "C:\\Users\\lit\\Desktop\\test.xlsx";
 
         start(propPath, filePath);
     }
