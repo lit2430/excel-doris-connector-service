@@ -2,7 +2,7 @@
 
 #### 功能介绍：
 
-该项目的主要功能是解析excel,将excel中的数据通过streamLoad的方式导入到Doris中。
+该项目的主要功能是解析excel,将excel中的数据通过streamLoad的方式导入到Doris中。关于Doris的介绍，详情请参考：[Apache Doris](https://doris.apache.org/)官网。
 
 #### 使用手册：
 
